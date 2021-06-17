@@ -25,8 +25,8 @@
 <body>
 	<!-- navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container">
-    <a class="navbar-brand pe-3" href="#">
+  <div class="container-fluid">
+    <a class="navbar-brand pe-3" href="./assets/images/logo.png" target="_blank">
     	<img id="logo" src="./assets/images/logo.png" alt="logo">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,9 +34,9 @@
     </button>
     <div class="collapse navbar-collapse justify-content-start" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-        <a class="nav-link" href="#">Portfolio</a>
-        <a class="nav-link" href="#">Contact Us</a>
+        <a class="nav-link" href="./index.html">Home</a>
+        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+        <a class="nav-link active" aria-current="page" href="./contact.html">Contact Me</a>
       </div>
     </div>
     <!-- end of brand -->
@@ -46,46 +46,102 @@
 <!-- end of navbar -->
 
 	<!-- content -->
+
+
 	<header class="page-header gradient">
-		<div class="container pt-3">
-			<div class="row align-items-center justify-content-center">
-				<div class="col-md-5 mt-5">
-					<img class="profile-pic" src="./assets/images/jdf.png" alt="header image">
+
+			 	<section class="contact mb-3">
+					<div class="container-fluid col-xs-12 col-sm-6 col-md-4">
+						<h1 class="contact2"><strong>Contact Me</strong></h1>
+						<div class="row">
+				<div class="col-md-6">
+							<div class="col-md-5">
+								<div class="form-group mb-3">
+			  					<label for="usr">Name</label>
+			  						<input type="text" class="form-control form-control-lg" id="usr" placeholder="First Name & Last Name">
+								</div>
+								<div class="mb-3">
+									<label for="input1" id="form-label">
+									Email Address
+									</label>
+									<input type="email" class="form-control form-control-lg" id="input1" placeholder="name@example.com" />
+								</div>
+							</div>
+							<div class="mb-3">
+								<label for="text1" id="form-label">
+									Comments
+									</label>
+									<textarea class="form-control mb-2" id="text1" rows="5"></textarea>
+									<button id="btn2" type="button" class="btn btn-outline-dark btn-lg mt-2">Send</button>
+							</div>
 				</div>
-				<div class="col-md-5 pt-5">
-					<h2><strong>Jedrick Joseph O. Del Fierro</strong></h2>
 
-					<p class="pb-3 pt-2">
-						Hello! My name is Jedrick Joseph O. Del Fierro,and  I am a career shifter from being a <strong>Licensed Architect</strong> to a <strong>Software Engineer</strong>.
-					</p>
 
-					<button class="btn btn-outline-dark btn-lg">View Portfolio</button>
 
+
+
+				
+<div class="container">
+	<h1 class="contact2"><strong>Find Me Here</strong></h1>
+	<div class="row">
+				<div class="col-md-3">
+							<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=tandang%20sora&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net">fmovies.po</a><br><style>.mapouter{position:relative;text-align:right;height:600px;width:600px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:600px;width:600px;}</style></div></div>
 				</div>
+						</div>
+					</div>
+				</section>
 
-			</div>
-		</div>
+<section class="social">
+					<div class="container text-center">
+						<h1 class="contact3"><strong>Visit Me On Social Media</strong></h1>
+						<div class="row g-5 mb-2">
+
+							<div class="col-md-4">
+								<a href="https://www.facebook.com/LongLiveJedrick/" target="_blank">
+									<img class="img-fluid" src="./assets/images/logo/fb.png" alt="company logo">
+								</a>
+							</div>
+
+							<div class="col-md-4">
+								<a href="https://www.instagram.com/longlivejedrick/" target="_blank">
+									<img class="img-fluid" src="./assets/images/logo/ig.png" alt="company logo">
+								</a>	
+							</div>
+
+							<div class="col-md-4">
+								<a href="https://www.linkedin.com/in/jedrick-joseph-del-fierro-207568213/" target="_blank">
+									<img class="img-fluid" src="./assets/images/logo/li.png" alt="company logo">
+								</a>
+							</div>
+
+						</div>
+					</div>
+				</section>
+				
+				<section>
+
 
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212529" fill-opacity="1" d="M0,192L30,213.3C60,235,120,277,180,256C240,235,300,149,360,101.3C420,53,480,43,540,80C600,117,660,203,720,245.3C780,288,840,288,900,266.7C960,245,1020,203,1080,197.3C1140,192,1200,224,1260,250.7C1320,277,1380,299,1410,309.3L1440,320L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+
+				</section>
 		
 	</header>
 
 	
 
 
-	<section class="feature gradient">
-		<!-- add wave -->
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212529" fill-opacity="1" d="M0,96L26.7,112C53.3,128,107,160,160,181.3C213.3,203,267,213,320,192C373.3,171,427,117,480,90.7C533.3,64,587,64,640,69.3C693.3,75,747,85,800,122.7C853.3,160,907,224,960,208C1013.3,192,1067,96,1120,80C1173.3,64,1227,128,1280,154.7C1333.3,181,1387,171,1413,165.3L1440,160L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
-	
 
-	</section>
 
 	<!-- footer -->
-	<footer class="footer footer-expand-lg footer-light bg-light">
-		<div class="container text-center">
-			<p>
-				<a href="https://www.linkedin.com/in/jedrick-joseph-del-fierro-207568213/" target="blank">Jedrick Joseph O. Del Fierro</a> &copy;2021
-			</p>	
+	<footer class="footer footer-expand-md bg-dark">
+		<div class="footer container-fluid text-center pt-5">
+				<a class="navbar-brand pe-3" href="./assets/images/logo.png" target="_blank">
+    			<img id="logo" src="./assets/images/logo.png" alt="logo">
+    		</a>
+				<p class="footer">
+					Copyright &copy; 2021 by 
+					<a href="https://www.linkedin.com/in/jedrick-joseph-del-fierro-207568213/" target="_blank">Jedrick Joseph O. Del Fierro</a>
+				</p>	
 			
 		</div>
 
